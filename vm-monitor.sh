@@ -11,3 +11,7 @@ az account show --output table
 echo ""
 echo "Virtual Machines:"
 az vm list -d --output table
+
+echo ""
+echo "Resource Groups:"
+az group list --output table
